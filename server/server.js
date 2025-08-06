@@ -256,6 +256,14 @@ app.get('/api/backup', async (req, res) => {
   }
 });
 
+// Serve static files from frontend build
+app.use(express.static(path.join(__dirname, '../dist')));
+
+// For any route not handled by your API, serve index.html
+app.get('*', (req, res) => {
+  res.sendFile(path.join(__dirname, '../dist', 'index.html'));
+});
+
 // Initialize and start server
 async function startServer() {
   try {
