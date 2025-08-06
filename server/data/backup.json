@@ -1,0 +1,180 @@
+{
+  "vehicles": [
+    {
+      "number": "1",
+      "type": "car",
+      "entryTime": "2025-08-06T18:18:03.893Z",
+      "id": "1754504283893",
+      "exitTime": "2025-08-06T18:18:25.109Z",
+      "fee": 100
+    },
+    {
+      "number": "1",
+      "type": "car",
+      "entryTime": "2025-08-07T18:20:06.805Z",
+      "id": "1754590806805",
+      "exitTime": "2025-08-07T18:20:14.229Z",
+      "fee": 100
+    },
+    {
+      "number": "2",
+      "type": "car",
+      "entryTime": "2025-08-07T18:20:28.013Z",
+      "id": "1754590828013",
+      "exitTime": "2025-08-07T18:20:35.797Z",
+      "fee": 100
+    },
+    {
+      "number": "1",
+      "type": "car",
+      "entryTime": "2025-08-08T18:21:24.239Z",
+      "id": "1754677284239",
+      "exitTime": "2025-08-08T18:21:49.239Z",
+      "fee": 100
+    },
+    {
+      "number": "2",
+      "type": "car",
+      "entryTime": "2025-08-08T18:26:49.989Z",
+      "id": "1754677609989",
+      "exitTime": "2025-08-08T18:27:08.365Z",
+      "fee": 100
+    },
+    {
+      "number": "2",
+      "type": "car",
+      "entryTime": "2025-09-08T18:28:02.613Z",
+      "id": "1757356082613",
+      "exitTime": "2025-09-08T18:28:22.901Z",
+      "fee": 100
+    },
+    {
+      "number": "1",
+      "type": "car",
+      "entryTime": "2025-08-06T19:43:35.578Z",
+      "id": "1754509415578"
+    },
+    {
+      "number": "2",
+      "type": "car",
+      "entryTime": "2025-08-06T19:44:10.513Z",
+      "id": "1754509450513"
+    },
+    {
+      "number": "3",
+      "type": "bike",
+      "entryTime": "2025-08-06T19:44:17.857Z",
+      "id": "1754509457857"
+    },
+    {
+      "number": "4",
+      "type": "rickshaw",
+      "entryTime": "2025-08-06T19:44:23.025Z",
+      "id": "1754509463025"
+    }
+  ],
+  "permanentClients": [
+    {
+      "number": "111111111",
+      "clientName": "11111111",
+      "type": "car",
+      "entryTime": "2025-08-06T19:44:00.849Z",
+      "cnic": "11111-1111111-1",
+      "monthlyFee": 111111111,
+      "contact": "+921111111111",
+      "paymentStatus": "unpaid",
+      "id": "1754509440849",
+      "isPermanent": true
+    },
+    {
+      "number": "2222222",
+      "clientName": "222222222",
+      "type": "car",
+      "entryTime": "2025-08-06T19:44:06.913Z",
+      "cnic": "22222-2222222-2",
+      "monthlyFee": 22222222222,
+      "contact": "+922222222222",
+      "paymentStatus": "unpaid",
+      "id": "1754509446913",
+      "isPermanent": true
+    }
+  ],
+  "settings": {
+    "siteName": "Smart Parking System",
+    "pricing": {
+      "car": {
+        "baseHours": 10,
+        "baseFee": 100,
+        "extraHourFee": 10
+      },
+      "bike": {
+        "baseHours": 10,
+        "baseFee": 50,
+        "extraHourFee": 5
+      },
+      "rickshaw": {
+        "baseHours": 10,
+        "baseFee": 100,
+        "extraHourFee": 10
+      }
+    },
+    "credentials": {
+      "username": "admin",
+      "password": "admin 1234"
+    },
+    "viewMode": "list"
+  },
+  "dailyStats": [
+    {
+      "date": "Thu Aug 07 2025",
+      "totalCars": 4,
+      "totalBikes": 1,
+      "totalRickshaws": 1,
+      "totalVehicles": 6,
+      "totalIncome": 200,
+      "vehicles": [
+        {
+          "number": "1",
+          "type": "car",
+          "entryTime": "2025-08-07T18:20:06.805Z",
+          "id": "1754590806805",
+          "exitTime": "2025-08-07T18:20:14.229Z",
+          "fee": 100
+        },
+        {
+          "number": "2",
+          "type": "car",
+          "entryTime": "2025-08-07T18:20:28.013Z",
+          "id": "1754590828013",
+          "exitTime": "2025-08-07T18:20:35.797Z",
+          "fee": 100
+        },
+        {
+          "number": "1",
+          "type": "car",
+          "entryTime": "2025-08-06T19:43:35.578Z",
+          "id": "1754509415578"
+        },
+        {
+          "number": "2",
+          "type": "car",
+          "entryTime": "2025-08-06T19:44:10.513Z",
+          "id": "1754509450513"
+        },
+        {
+          "number": "3",
+          "type": "bike",
+          "entryTime": "2025-08-06T19:44:17.857Z",
+          "id": "1754509457857"
+        },
+        {
+          "number": "4",
+          "type": "rickshaw",
+          "entryTime": "2025-08-06T19:44:23.025Z",
+          "id": "1754509463025"
+        }
+      ]
+    }
+  ],
+  "backupDate": "2025-08-06T19:44:29.945Z"
+}
